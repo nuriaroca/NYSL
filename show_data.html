@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <title>Feedback Sent</title>
+  <meta charset="utf-8">
+  <title class="title">Registration</title>
+  <link rel="stylesheet" href="/css/nysl_3.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <div>
+      <div class="header">
+        <a href="home.html"><img class="flag" src="/images/united-kingdom.png" alt="flag">
+          <a href="home_spanish.html"><img class="flag" src="/images/spain.png" atl="flag">
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky links">
+    <h1 class="titleone">NORTHSIDE YOTUH SOCCER LEAGUE</h1>
+    <img class="logo" src="/images/nysl_logo.png" alt="logo">
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fas fa-bars"></i></button>
+      <div class="dropdown-content">
+        <a class="link" href="home.html"><i class="fas fa-home"> </i> Home</a>
+        <a class="link" href="about.html"><i class="fas fa-users"></i> About</a>
+        <a class="link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a class="link" href="rules.html"><i class="fas fa-glasses"></i> Rules and policies</a>
+        <a class="link" href="game_info.html"><i class="fas fa-futbol"></i> Game information</a>
+        <a class="link active" href="registration.html"><i class="fas fa-file-signature"></i> Join us</a>
+      </div>
+    </div>
+  </div>
+
+  <p align=center>&nbsp;</p>
+  <h1 align=center>
+    <font size="+1">The following information has been sent as your
+      feedback:</font>
+  </h1>
+
+  <table border="1" align=center width="226">
+    <tr>
+      <th align="center">Form Field</th>
+      <th align="center">Field Value</th>
+    </tr>
+
+    <script language="javascript">
+      var args = location.search.substr(1).split('&');
+      for (var i = 0; i < args.length; ++i) {
+        var parts = args[i].split('=');
+        if (parts != null) {
+          var field = parts[0];
+          var value = parts[1];
+          if (value == null) {
+            value = "null"
+          }
+          else {
+            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+          }
+
+          document.writeln('<tr><td align="center">' + field + '</td>');
+          document.writeln('<td align="center">' + value + '</td></tr>');
+        }
+      }
+    </script>
+
+    <noscript>
+      <tr>
+        <td>
+          <p>You need to turn on Javascript in your browser.</p>
+
+          <p>In Microsoft Internet Explorer 4 or greater:</p>
+          <ul>
+            <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+            <li>Click on the "Security" tab.</li>
+            <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+              and then click on "Settings...".)</li>
+            <li>Under "Active scripting" make sure "Enable" is selected.</li>
+          </ul>
+
+          <p>In Netscape version 4 or greater:</p>
+          <ul>
+            <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+            <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+            <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+            <li>Click the <b>OK</b> button.</li>
+          </ul>
+
+        </td>
+      </tr>
+    </noscript>
+
+  </table>
+</body>
+
+</html>

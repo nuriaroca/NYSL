@@ -1,0 +1,431 @@
+/* HEADER */
+
+.header{  
+    background-image: url(/images/soccer-768482_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 231px;
+    background-position-y: -597px;
+}
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-color: gainsboro;
+}
+
+.titleone{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    position: absolute;
+    left: 541px;
+    top: -2px;
+}
+.flag{
+    width: 30px;
+    padding-left: 1375px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.logo{
+    height: 156px;
+    position: absolute;
+    left: 74px;
+    top: -56px;
+}
+
+.links{
+    left: 50px;
+    display: block;
+    border: 3px solid;
+    background-color:rgb(39, 64, 133);
+    color:white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+    text-align: right;
+
+    position: sticky;
+    top: 53px;
+}
+
+.link{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-weight: bold; 
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(39, 64, 133);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 0px;
+}
+  
+  /* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(39, 64, 133);
+    box-shadow: 0px 8px 16px 0px rgb(39, 64, 133);
+    z-index: 1;
+    border: 3px solid;
+    margin: 0px;
+    padding-top: 0px;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: white; 
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(31, 51, 105);}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; right: 0px;}
+
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(22, 37, 78);}
+
+
+.active{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-weight: bold; 
+    background-color: rgb(22, 37, 78);
+    
+}
+
+.dropdown-content a:hover { 
+    background-color: rgb(31, 51, 105);
+}
+
+/* MAIN */
+
+.titlepage{
+    border-bottom: 2px solid black;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: right;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.fas fa-home{
+    margin-top: 0px;
+}
+.fas fa-users{
+    border-bottom: 2px solid black;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: right;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.info{
+    display: inline-block;
+    text-align: justify;
+    width: 480px;
+    margin-left: 300px;
+    vertical-align: top;
+}
+
+
+.inforules{
+    display: inline-block;
+    text-align: justify;
+    width: 825px;
+    margin-left: 300px;
+    vertical-align: top;
+    padding:0px;
+
+}
+
+.oct{
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    vertical-align: top;
+}
+
+td{
+    vertical-align: top;
+}
+
+div ol li{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.phone{
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.imagen{
+    margin-left: 90px;
+    display: inline-block;
+    vertical-align: top;
+   
+
+}
+.imagendos{
+    margin-top: 92px;
+    margin-left: 90px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* FOOTER */
+
+
+
+.footbox{
+    left: 50px;
+    top: 25px;
+    display: block;
+    border: 3px solid;
+    background-color:rgb(39, 64, 133);
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.69);
+    text-decoration: none;
+}
+
+
+.social{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook-square{
+    margin: 5px;
+
+}
+.fa-twitter-square{
+    margin: 5px;
+}
+.fa-google-plus-square{
+    margin: 5px;
+}
+.fa-map-marker-alt{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+.ubi{
+    text-decoration-color:white;
+    text-decoration: none;
+
+}
+
+.copy{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right:20px;}
+}
+
+ol > li > ol > li{
+    list-style: lower-alpha
+}
+
+ul{
+    list-style: square;
+}
+
+.bolditems > li {
+    font-weight: bold
+}
+.normal-text{
+    font-weight: normal
+}
+.sitio{
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+
+thead{
+    font-weight: bold;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.input-name{
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+
+.gender:nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.name div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+
+
+}
+.name input{
+    flex-grow: 1;
+
+}
+
+.schools-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.schools{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.school > div{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+
+}
+.submit{
+    display:flex;
+    justify-content: center;
+}
+.submit input{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 250px; 
+    height: 60px;
+    background-color:rgb(39, 64, 133);
+    color:white;
+    font-family: 'Abel', sans-serif;
+    border: 3px solid;
+    font-size: 20px;
+    
+}
+
+.submit input:hover{background-color: rgb(31, 51, 105);}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.position{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.positions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+iframe{
+    height: 150px;
+    width: 300px;
+
+}
+
+.mapa-link{
+    display:flex;
+    flex-direction: row;
+}
+
+.mapa-link > div{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.permission{
+    margin-top:35px;
+}
+
+.permission > div > div > input{
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.mapa-link{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+   outline: none;
+}
