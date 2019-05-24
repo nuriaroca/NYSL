@@ -22,6 +22,11 @@ body{
     left: 541px;
     top: -2px;
 }
+.sticky{
+    position: sticky;
+    top: -177px;
+}
+
 .flag{
     width: 30px;
     padding-left: 1375px;
@@ -37,16 +42,14 @@ body{
 }
 
 .links{
-    left: 50px;
     display: block;
     border: 3px solid;
     background-color:rgb(39, 64, 133);
     color:white;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
     text-align: right;
+    position: relative;
 
-    position: sticky;
-    top: 53px;
 }
 
 .link{
@@ -199,7 +202,7 @@ div ol li{
 
 
 
-.footbox{
+.footbox {
     left: 50px;
     top: 25px;
     display: block;
@@ -212,6 +215,9 @@ div ol li{
     -webkit-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.69);
     text-decoration: none;
 }
+
+
+
 
 
 .social{
@@ -241,8 +247,10 @@ div ol li{
     margin-bottom: 0px;
     color: white;
 }
-.ubi{
-    text-decoration-color:white;
+
+
+.ubi > a{
+    color:white;
     text-decoration: none;
 
 }
@@ -303,9 +311,21 @@ h3{
     flex-direction: row;
 }
 
-.gender:nth-child(2) div {
+.birth{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 49%;
+}
+
+.gender-small{
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+}
+
+.genderr{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -320,6 +340,7 @@ h3{
     display: flex;
     flex-direction: row;
     width: 50%;
+    
 
 
 }
@@ -389,20 +410,21 @@ h3{
 iframe{
     height: 150px;
     width: 300px;
+    
 
 }
-
+.papi{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .mapa-link{
     display:flex;
     flex-direction: row;
 }
 
 .mapa-link > div{
-    display:flex;
-    justify-content: space-around;
-    flex-direction: row;
+    width: 49%;
 }
-
 .permission{
     margin-top:35px;
 }
@@ -417,11 +439,8 @@ iframe{
     
 }
 
-.mapa-link{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
+
+
 
 input:focus,
 select:focus,
